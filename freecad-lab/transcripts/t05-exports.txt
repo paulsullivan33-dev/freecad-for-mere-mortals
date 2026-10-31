@@ -1,0 +1,42 @@
+FCStd reopened: volume 27816.319 mm^3, valid True
+
+STL: 51684 bytes; binary triangle count in header: 1032
+STL: size check 84 + 50*n = 51684 (matches: True)
+STL: mesh volume from raw triangles: 27816.6 mm^3 (the exact solid is 27816.3)
+
+STEP header:
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
+FILE_NAME('Open CASCADE Shape Model','2026-10-31T02:06:04',('Author'),(
+    ''),'Open CASCADE STEP processor 7.8','FreeCAD','Unknown');
+FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
+ENDSEC;
+DATA;
+-rw-rw---- 1 root root 13597 Oct 31 02:06 bracket.step
+
+FCStd is a zip:
+  Document.xml                            64029 bytes
+  StringHasher.Table.txt                   1124 bytes
+  Body.Shape.brp                          19140 bytes
+  Body.Shape.Map.txt                       1428 bytes
+  BlockSketch.InternalShape.brp               0 bytes
+  BlockSketch.Shape.brp                    1671 bytes
+  BlockSketch.Shape.Map.txt                 267 bytes
+  Pad.AddSubShape.brp                      4994 bytes
+  Pad.AddSubShape.Map.txt                   646 bytes
+  Pad.Shape.brp                            5217 bytes
+  Pad.Shape.Map.txt                         646 bytes
+  Pad.SuppressedShape.brp                     0 bytes
+  CornerFillet.AddSubShape.brp                0 bytes
+  CornerFillet.Shape.brp                  17604 bytes
+  CornerFillet.Shape.Map.txt               1079 bytes
+  CornerFillet.SuppressedShape.brp            0 bytes
+  HoleSketch.InternalShape.brp                0 bytes
+  HoleSketch.Shape.brp                     2078 bytes
+  HoleSketch.Shape.Map.txt                  181 bytes
+  Hole.AddSubShape.brp                     3012 bytes
+  Hole.AddSubShape.Map.txt                  407 bytes
+  Hole.Shape.brp                          21271 bytes
+  Hole.Shape.Map.txt                       1226 bytes
+  Hole.SuppressedShape.brp                    0 bytes

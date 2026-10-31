@@ -1,0 +1,31 @@
+site_name: FreeCAD for Mere Mortals
+site_description: Parametric 3D CAD on your own machine. Designing a real part from sketches and numbers in FreeCAD, proving the geometry with arithmetic the program itself must answer to, and exporting files a printer or another CAD program can use, with the limits stated plainly.
+site_url: https://paulsullivan33-dev.github.io/freecad-for-mere-mortals/
+copyright: 'Part of <a href="https://paulsullivan33-dev.github.io/mere-mortals/">For Mere Mortals</a> · Text CC BY 4.0, code MIT'
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What FreeCAD Is: what-freecad-is.md
+  - The Moving Parts: the-moving-parts.md
+  - Installing FreeCAD: installing-freecad.md
+  - Workbenches — Part, Part Design and Sketcher: workbenches.md
+  - Your First Part: your-first-part.md
+  - Sketches and Constraints: sketches-and-constraints.md
+  - Holes, Pockets and Fillets: holes-pockets-and-fillets.md
+  - Proving the Geometry: proving-the-geometry.md
+  - Parameters and Spreadsheets: parameters-and-spreadsheets.md
+  - Exporting Your Part: exporting-your-part.md
+  - The Python Console: the-python-console.md
+  - Files and Formats: files-and-formats.md
+  - More Than One Part — Assemblies: assemblies.md
+  - Recipes: recipes.md
+  - The Neighbours: the-neighbours.md
+  - Limits: limits.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md

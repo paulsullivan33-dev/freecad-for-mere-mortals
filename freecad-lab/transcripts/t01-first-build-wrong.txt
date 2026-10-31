@@ -1,0 +1,18 @@
+--- first build (v1, symmetric constraint), measurements as printed:
+=== MEASUREMENTS ===
+parameters: L=60 W=40 H=12 hole_dia=10 fillet_r=2
+valid solid: True | solids: 1
+volume measured : 28287.558 mm^3
+volume expected : 27816.319 mm^3 (block 28800.0 - hole 942.478 - 4 corners 41.204)
+volume error    : 1.6941 %
+surface area    : 7141.885 mm^2
+bounding box    : 60.000 x 40.000 x 12.000 mm
+faces: 12  edges: 32  vertices: 22
+exports written to out_wrong
+
+--- probing the saved shape:
+bbox min (-30.00, -20.00, 0.00)  max (30.00, 20.00, 12.00)
+hole face 11 centre of mass (0.000, -0.000, 6.000)
+--- probing the v1 (wrong) shape saved in out_wrong:
+bbox min (-0.00, -20.00, 0.00)  max (60.00, 20.00, 12.00)
+hole face 12 centre of mass (3.183, -0.000, 6.000)

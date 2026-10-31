@@ -1,0 +1,3 @@
+HoleDia cell now 16: volume 26346.053  expected 26346.053
+bound to sheet: volume 27816.319  expected 27816.319
+hole diameter as the sketch reports it: 16.000 mm

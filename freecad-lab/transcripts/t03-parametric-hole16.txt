@@ -1,0 +1,12 @@
+$ HOLE_DIA=16 OUTDIR=out16 freecadcmd build_part.py   (same script, one parameter changed via the environment)
+
+=== MEASUREMENTS ===
+parameters: L=60 W=40 H=12 hole_dia=16 fillet_r=2
+valid solid: True | solids: 1
+volume measured : 26346.053 mm^3
+volume expected : 26346.053 mm^3 (block 28800.0 - hole 2412.743 - 4 corners 41.204)
+volume error    : 0.0000 %
+surface area    : 7352.991 mm^2
+bounding box    : 60.000 x 40.000 x 12.000 mm
+faces: 11  edges: 27  vertices: 18
+exports written to out16

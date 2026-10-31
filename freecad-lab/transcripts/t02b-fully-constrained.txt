@@ -1,0 +1,2 @@
+BlockSketch: 4 geometry, 12 constraints, fully constrained: True
+HoleSketch: 1 geometry, 2 constraints, fully constrained: True

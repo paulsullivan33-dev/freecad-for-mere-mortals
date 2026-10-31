@@ -1,0 +1,9 @@
+$ curl -sL -O https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Linux-x86_64-py311.AppImage
+$ curl -sL -O .../FreeCAD_1.1.4-Linux-x86_64-py311.AppImage-SHA256.txt   (the published checksum)
+$ cat FreeCAD_1.1.4-Linux-x86_64-py311.AppImage-SHA256.txt
+f6dc6ba676e5ac96a565ebc8d657232f94c6158e85b4352141bd1a46f6b43434  FreeCAD_1.1.4-Linux-x86_64-py311.AppImage
+$ sha256sum FreeCAD.AppImage
+f6dc6ba676e5ac96a565ebc8d657232f94c6158e85b4352141bd1a46f6b43434  FreeCAD.AppImage
+$ ./FreeCAD.AppImage --appimage-extract   (no FUSE on this machine; the tree runs in place)
+$ ls squashfs-root/usr/bin
+ccx dot freecad freecadcmd gmsh pip pyside6-rcc python unflatten 

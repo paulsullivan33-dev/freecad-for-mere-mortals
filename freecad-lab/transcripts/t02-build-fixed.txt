@@ -1,0 +1,17 @@
+$ OUTDIR=out_final freecadcmd freecad-lab/build_part.py   (the shipped script, run as delivered)
+
+block sketch fully constrained: True
+vertical edges found: ['Edge1', 'Edge2', 'Edge5', 'Edge8']
+hole sketch fully constrained: True
+
+=== MEASUREMENTS ===
+parameters: L=60 W=40 H=12 hole_dia=10 fillet_r=2
+valid solid: True | solids: 1
+volume measured : 27816.319 mm^3
+volume expected : 27816.319 mm^3 (block 28800.0 - hole 942.478 - 4 corners 41.204)
+volume error    : -0.0000 %
+surface area    : 7371.841 mm^2
+bounding box    : 60.000 x 40.000 x 12.000 mm
+faces: 11  edges: 27  vertices: 18
+exports written to out_final
+saving......
